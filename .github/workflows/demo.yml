@@ -8,6 +8,6 @@ jobs:
         run: echo Hello step 1 on GH actions
       - name: Print few lines
         run: |
-          more text line 1
-          more test line 2
-          more text line 3
+          echo more text line 1
+          echo more test line 2
+          echo more text line 3

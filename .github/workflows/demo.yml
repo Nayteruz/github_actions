@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: Print to console step 1
         run: echo Hello step 1 on GH actions
+      - name: Print few lines
+        run: |
+          more text line 1
+          more test line 2
+          more text line 3
